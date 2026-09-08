@@ -34,7 +34,7 @@ An advertising campaign is a coordinated and planned series of messages promotin
 
 ### Digital media 
 
-Any interactive or visual content created with technology, made to exist online (digitally). For a creative design company it can be anything like visul graphics, layouts, user interface and brand films. Can be used to deliver information in more appealing ways than just plain text.
+Any interactive or visual content created with technology, made to exist online (digitally). For a creative design company it can be anything like visul graphics, layouts, user interface and brand films. Can be used to deliver information in more appealing ways than just plain text in marketing, important to establish brand.
 
 ![](https://www.mbaskool.com/2019_images/stories/may_images/digital-media.jpg)
 
