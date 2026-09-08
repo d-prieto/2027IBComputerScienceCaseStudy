@@ -96,7 +96,7 @@ A constant sound combining all frequencies that can be heard by humans at the sa
 
 Noise images are images where pixels have slight variations in colour and intensity that result in a difference to the human eye, as it complicates to distinction of elements and forms within the image. These are mainly used to test algorithms or alter the image for a specific purpose, but can also happen accidentally due to interference (as can be seen in the video bellow). It can sometimes be seen as a form of artistic expression.
 
-![video](https://youtu.be/Uf4Ux4SlyT4?si=5fZ238jR8QJVBQzX)
+![Video: GoPro inside particle accelerator](https://youtu.be/Uf4Ux4SlyT4?si=5fZ238jR8QJVBQzX)
 ![](https://www.johnpaulcaponigro.com/blog/wp-content/uploads/2021/02/Noise_Banding.jpg)
 
 ### Adding noise (to an image)
