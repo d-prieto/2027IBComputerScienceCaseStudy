@@ -60,7 +60,7 @@ I know that we have covered this in A1.2
 
 ### Pixel 
 
-
+Pixel is the smallest addressable element of a raster image in digital imaging, pixel could be also called pel or picture element.Pixels are usually arranged in a regular two-dimensional grid, with each pixel storing one or more numerical values that represent a sample of an image.
 
 ## Previous information about AI that you should already know
 
