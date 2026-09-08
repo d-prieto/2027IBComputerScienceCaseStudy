@@ -17,6 +17,10 @@ This year the case study is about a creative design company so let's have some l
 
 ### Concept art
 
+Concept art is an illustration or visual representation of an idea that is used to set an example of a style or a design before the final model is built or made. This serves as an example of the final product and is usually used to visualize ideas as it is cheaper than building the whole assembly line for 1 product that might be changed or tweaked.
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSCVK_UIjX9DaFhMEPRPmfdaXAY8rZ9-erBGgCYWZ-F_NHhRc1XK5DcUY&s=10)
+
 ### Advertising campaign 
 
 ### Digital media 
