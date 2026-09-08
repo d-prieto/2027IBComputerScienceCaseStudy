@@ -28,6 +28,9 @@ Concept art is an illustration or visual representation of an idea that is used 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSCVK_UIjX9DaFhMEPRPmfdaXAY8rZ9-erBGgCYWZ-F_NHhRc1XK5DcUY&s=10)
 
 ### Advertising campaign 
+An advertising campaign is a coordinated and planned series of messages promoting a specific product or service. They typically target a specific audience, share a central motto and are spread over different media channels over a set amount of time. Conversely to standalone advertising, it links several medias together with the same strategic and creative direction.
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/e74e3a86-7ef2-461b-a216-52def013a156" />
+
 
 ### Digital media 
 
