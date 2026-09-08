@@ -70,6 +70,12 @@ I know that we have covered this in A1.2
 
 ### Synthetic data (and its use)
 
+What is it?
+- Synthetic data is artificially generated information created by computer algorithms or simulations rather than collected from real-world events, humans or observations
+
+Use
+- Synthetic data is used to train, test, and validate AI models when real data is too sensitive, expensive or rare to use
+
 ### Data curation 
 
 Think of museum curators. 
