@@ -101,6 +101,12 @@ Noise images are images where pixels have slight variations in colour and intens
 ### Adding noise (to an image)
 
 ## Convolution (in images)
+Convolution is a mathematical operation that modifies an image by working on its matrixes, known as a kernel or filter, across its pixels. Common uses for convolution include: blurring, sharpening and edge detection. In other words, convolution is when each pixel in the output image is a function of the nearby pixels.
+
+
+
+<img width="720" height="912" alt="image" src="https://github.com/user-attachments/assets/73bd3b05-18e8-4072-ae32-d4e8ee3040bd" />
+
 
 https://en.wikipedia.org/wiki/Kernel_(image_processing)
 
