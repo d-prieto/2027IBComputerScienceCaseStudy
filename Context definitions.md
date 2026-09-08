@@ -66,7 +66,11 @@ Pixel is the smallest addressable element of a raster image in digital imaging, 
 
 ### Input 
 
+An input is any data you send into an AI system, such as text, images, audio, or files. It provides the information that the AI uses to process and generate a response.
+
 ### Prompt
+
+A prompt is a specific type of input designed to instruct or guide the AI on what task to perform. It can include questions, instructions, context, or examples to help the AI produce a relevant response.
 
 ### Synthetic data (and its use)
 
