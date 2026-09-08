@@ -39,6 +39,8 @@ Consistency in advertising is the practice of using the same visual elements, co
 
 ### Uncanny valley 
 
+The uncanny valley is the hypothesized relationship between how closely a humanoid entity resembles an actual human being and the emotional response the entity evokes. Examples that gives uncanny valley such as zombies, androids…etc.
+
 [image](https://www.researchgate.net/profile/Azaini-Manaf/publication/367178663/figure/fig1/AS:11431281113387941@1673890847568/Uncanny-Valley-Graph-Mori-1970-and-visual-representative-of-the-uncanny-valley-effect.png)
 
 ## Image concepts
