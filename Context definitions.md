@@ -25,7 +25,9 @@ Concept art is an illustration or visual representation of an idea that is used 
 
 ### Digital media 
 
-Any interactive or visual content created with technology, made to exist exclusively online. For a creative design company it can be anything like visul graphics, layouts, user interface and brand films.
+Any interactive or visual content created with technology, made to exist online (digitally). For a creative design company it can be anything like visul graphics, layouts, user interface and brand films. Can be used to deliver information in more appealing ways than just plain text.
+
+![](https://www.mbaskool.com/2019_images/stories/may_images/digital-media.jpg)
 
 ### Content (in this context)
 
