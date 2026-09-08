@@ -75,10 +75,16 @@ I know that we have covered this in A1.2
 Think of museum curators. 
 
 ## Noise-signal 
+Any random or unwanted disturbance that disrupts, distorts or obscures a meaningful part of information in a communication or electronic system.
 
 ### Noise 
+Any unwanted, unpleasant or loud noise or signal that interferes with hearing and or with measurements.
 
 ### White noise (in sound)
+A constant sound combining all frequencies that can be heard by humans at the same time at the same intensity. (Seen below)
+
+<img width="240" height="180" alt="image" src="https://github.com/user-attachments/assets/03743feb-b565-49d3-9679-d51746e0c90c" />
+
 
 ### Noise image 
 
