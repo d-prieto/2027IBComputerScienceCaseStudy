@@ -94,7 +94,7 @@ A constant sound combining all frequencies that can be heard by humans at the sa
 
 ### Noise image 
 
-Noise images are images where pixels have slight variations in colour and intensity that result in a difference to the human eye, as it complicates to distinction of elements and forms within the image. These are mainly used to test algorithms or alter the image for a specific purpose, but can also happen accidentally due to interference (as can be seen in the video: https://youtu.be/Uf4Ux4SlyT4?si=nw0rgsDjyWKd0cqj). It can sometimes be seen as a form of artistic expression.
+Noise images are images where pixels have slight variations in colour and intensity that result in a difference to the human eye, as it complicates to distinction of elements and forms within the image. These are mainly used to test algorithms or alter the image for a specific purpose, but can also happen accidentally due to interference (as can be seen in the video: https://youtu.be/Uf4Ux4SlyT4?si=nw0rgsDjyWKd0cqj, where they set a GoPro through an electron beam irradiator). It can sometimes be seen as a form of artistic expression.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/Uf4Ux4SlyT4/0.jpg)](http://www.youtube.com/watch?v=Uf4Ux4SlyT4 "
 GoPro Ride Through an Electron Beam Irradiator at Full Beam Power (GOPR0016trim)")
