@@ -25,6 +25,8 @@ Concept art is an illustration or visual representation of an idea that is used 
 
 ### Digital media 
 
+Interactive or visual content created with technology, made to exist exclusively online. Like visul graphics, layouts, user interface and brand films.
+
 ### Content (in this context)
 
 Content are the text, images, videos, and overall subject matter of a digital environment that a user is viewing or reading.
