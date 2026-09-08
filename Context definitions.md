@@ -82,6 +82,10 @@ Think of museum curators.
 
 ### Noise image 
 
+Noise images are images where pixels have slight variations in colour and intensity that result in a difference to the human eye, as it complicates to distinction of elements and forms within the image. These are mainly used to test algorithms or alter the image for a specific purpose. It can sometimes be seen as a form of artistic expression.
+
+![](https://www.johnpaulcaponigro.com/blog/wp-content/uploads/2021/02/Noise_Banding.jpg)
+
 ### Adding noise (to an image)
 
 ## Convolution (in images)
