@@ -33,6 +33,9 @@ Content are the text, images, videos, and overall subject matter of a digital en
 
 ### Consistency 
 
+Consistency in advertising is the practice of using the same visual elements, core messages, and tone across all platforms to build instant recognition and trust.
+[image](https://localiq.com/wp-content/uploads/2021/07/brand-consistency-example-of-multi-channel-branding.jpg)
+
 ### Uncanny valley 
 
 [image](https://www.researchgate.net/profile/Azaini-Manaf/publication/367178663/figure/fig1/AS:11431281113387941@1673890847568/Uncanny-Valley-Graph-Mori-1970-and-visual-representative-of-the-uncanny-valley-effect.png)
