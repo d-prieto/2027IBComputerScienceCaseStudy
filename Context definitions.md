@@ -23,7 +23,12 @@ This year the case study is about a creative design company so let's have some l
 
 ### Content (in this context)
 
-Content are the text, images, videos, and overall subject matter of a digital environment that a user is viewing or reading.
+What is it?
+Content is any paid message, visual, or text used to inform, persuade, or sell a product, service, or brand to an audience
+
+Uses
+Content is used to attract people, educate the audience, and build trust in a brand
+
 
 ### Consistency 
 
