@@ -40,7 +40,7 @@ Any interactive or visual content created with technology, made to exist online 
 
 ### Content (in this context)
 
-Content are the text, images, videos, and overall subject matter of a digital environment that a user is viewing or reading.
+Content are the texts, images, videos, and overall subject matter of a digital environment that a user is viewing or reading.
 
 ### Consistency 
 
