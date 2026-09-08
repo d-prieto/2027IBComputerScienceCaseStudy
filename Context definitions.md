@@ -27,7 +27,7 @@ This year the case study is about a creative design company so let's have some l
 
 ### Uncanny valley 
 
-https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FUncanny-Valley-Graph-Mori-1970-and-visual-representative-of-the-uncanny-valley-effect_fig1_367178663&opi=89978449
+![](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FUncanny-Valley-Graph-Mori-1970-and-visual-representative-of-the-uncanny-valley-effect_fig1_367178663&opi=89978449)
 
 ## Image concepts
 
