@@ -78,7 +78,7 @@ Use
 
 ### Data curation 
 
-Think of museum curators. 
+Like museum curators, curators of data select, organise, manage, and maintain digital assests to ensure they're secure, searchable and secure to be used for projects
 
 ## Noise-signal 
 Any random or unwanted disturbance that disrupts, distorts or obscures a meaningful part of information in a communication or electronic system.
