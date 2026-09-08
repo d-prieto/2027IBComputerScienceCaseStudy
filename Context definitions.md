@@ -14,6 +14,12 @@ This file has 2 intentions
 This year the case study is about a creative design company so let's have some lexicon about it 
 
 ### Briefing 
+A brief of a project functions as a blueprint for a project which allows a company to bring their product to life. Briefs are created by a design team who decide on what the goal of a project is: what are the expectations and what is the product/project that is going to be made. Briefs allow the companies to align their projects with the expectations of the final result and create a clear idea on what the project is. They also allow for the creation of prototypes which are a step closer to the final result.
+A brief is usually a document where the plans are written, however sites like miro.com allow for the companies to create the briefs easier as they provide templates for the briefs.
+
+![](https://public-images.interaction-design.org/tags/Miro.png)
+[Example of a complete brief](https://ixdf.org/literature/topics/design-briefs)
+
 
 ### Concept art
 
