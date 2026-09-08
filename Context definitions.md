@@ -94,13 +94,14 @@ A constant sound combining all frequencies that can be heard by humans at the sa
 
 ### Noise image 
 
-Noise images are images where pixels have slight variations in colour and intensity that result in a difference to the human eye, as it complicates to distinction of elements and forms within the image. These are mainly used to test algorithms or alter the image for a specific purpose, but can also happen accidentally due to interference (as can be seen in the video bellow). It can sometimes be seen as a form of artistic expression.
+Noise images are images where pixels have slight variations in colour and intensity that result in a difference to the human eye, as it complicates to distinction of elements and forms within the image. These are mainly used to test algorithms or alter the image for a specific purpose, but can also happen accidentally due to interference (as can be seen in the video: https://youtu.be/Uf4Ux4SlyT4?si=nw0rgsDjyWKd0cqj). It can sometimes be seen as a form of artistic expression.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uf4Ux4SlyT4?si=SHDHoHS4P30zDVXl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-![](https://www.johnpaulcaponigro.com/blog/wp-content/uploads/2021/02/Noise_Banding.jpg)
 
 ### Adding noise (to an image)
+
+Adding noise to an image involves adding an element of randomness (however randomness is accomplished) to vary the values of pixels or groups of pixels within the image. The result of this process is a noise image (explained above). Bear in mind that noise can be added to noise images too, distorting the contents of the image even further.
+
+![](https://www.johnpaulcaponigro.com/blog/wp-content/uploads/2021/02/Noise_Banding.jpg)
 
 ## Convolution (in images)
 Convolution is a mathematical operation that modifies an image by working on its matrixes, known as a kernel or filter, across its pixels. Common uses for convolution include: blurring, sharpening and edge detection. In other words, convolution is when each pixel in the output image is a function of the nearby pixels.
