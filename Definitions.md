@@ -8,6 +8,8 @@ Here you find almost all the concepts that you need. For context definitions you
 
 ## Conditional image generation
 
+Conditional image generation refers to the process of generating images based on specific conditions or prompts. This technique is commonly used in applications like text-to-image and sketch-to-image generation, where the output is influenced by the input conditions, such as text descriptions or sketches.
+
 ## Segmentation map 
 
 ![](https://www.researchgate.net/profile/Sagi-Eppel/publication/339698501/figure/fig1/AS:865545939320832@1583373641463/Exclusive-instance-segmentation-map-from-the-Vector-LabPics-dataset-The-segmentation-is.png)
