@@ -18,6 +18,15 @@ source: https://chemrxiv.org/doi/full/10.26434/chemrxiv.11930004.v3
 ## Class labels
 
 ## Image-to-image translation
+It is a sub-field of computer vision and deep learning where the goal is to map an input image from one domain and an output image in another domain. In simpler words it maps a pattern to another, such as a a winter landscape to a summer landscape.
+
+
+<img width="1400" height="673" alt="0_Udvw6tGu40iDEkuH" src="https://github.com/user-attachments/assets/30e3141f-8862-40d9-8d91-9e215255c218" />
+<img width="431" height="464" alt="images" src="https://github.com/user-attachments/assets/b55938e7-4903-4624-a92b-9c72effadff4" />
+
+
+
+
 
 ## Unconditional image generation
 
