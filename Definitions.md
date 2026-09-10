@@ -33,6 +33,12 @@ It is a sub-field of computer vision and deep learning where the goal is to map 
 ## Diffusion model 
 
 ### Noise injection 
+Noise injection is a technique that introduces controlled randomness into training data to improve generalization. It does so by utilizing tools like Gaussian Noise which forces models to learn patterns rather than focusing on individual pixels. This allows for the models to be more used to realistic images which helps it function significantly better in the real world. 
+
+<img width="1048" height="497" alt="image" src="https://github.com/user-attachments/assets/b56d97f1-a1c6-4e45-aacd-e06db8316f03" />
+
+
+Understanding noise injection in gans. (n.d.). http://proceedings.mlr.press/v139/feng21g/feng21g.pdf 
 
 ### Denoising 
 
