@@ -30,6 +30,10 @@ It is a sub-field of computer vision and deep learning where the goal is to map 
 
 ## Unconditional image generation
 
+It is an AI image generation of random samples of its training data without any guidance, prompts or context. It is used in synthetic data creation, as it does not violate any privacy policies, as it generates faces of people that don't exist. It starts with a seed of a random noise image and applies patterns from the learnt data, to create a realistic image.
+
+Unconditional Image Generation. (2023, August 3). huggingface.co. https://huggingface.co/tasks/unconditional-image-generation
+
 ## Diffusion model 
 
 ### Noise injection 
