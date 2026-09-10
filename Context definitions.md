@@ -113,7 +113,7 @@ Adding noise to an image involves adding an element of randomness (however rando
 
 Resource found by the teacher:
 https://www.youtube.com/watch?v=KuXjwB4LzSA
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KuXjwB4LzSA?si=RnmYL8-RSeBP_7xi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 Convolution is a mathematical operation that modifies an image by working on its matrixes, known as a kernel or filter, across its pixels. Common uses for convolution include: blurring, sharpening and edge detection. In other words, convolution is when each pixel in the output image is a function of the nearby pixels.
 
