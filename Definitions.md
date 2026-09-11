@@ -32,7 +32,10 @@ It is a sub-field of computer vision and deep learning where the goal is to map 
 
 It is an AI image generation of random samples of its training data without any guidance, prompts or context. It is used in synthetic data creation, as it does not violate any privacy policies, as it generates faces of people that don't exist. It starts with a seed of a random noise image and applies patterns from the learnt data, to create a realistic image.
 
+[!image](https://miro.medium.com/v2/resize:fit:720/format:webp/1*W_TqD_l6OhXZGVpT0Y91vQ.png)
+
 Unconditional Image Generation. (2023, August 3). huggingface.co. https://huggingface.co/tasks/unconditional-image-generation
+Michael ZHANG. (2023, February 15). Diffusion Models : Unconditional&Conditional Image Generation. Medium. https://medium.com/@myschang/diffusion-models-unconditional-conditional-image-generation-e7ced52b09b5
 
 ## Diffusion model 
 
