@@ -49,10 +49,19 @@ Noise injection is a technique that introduces controlled randomness into traini
 Understanding noise injection in gans. (n.d.). http://proceedings.mlr.press/v139/feng21g/feng21g.pdf 
 
 ### Denoising 
+Denoising is a computational process that eliminates noise from a picture. Noise can be present on a picture due to: transmission errors and sensor limitations. Types of denoising processes include: Gaussian Noise, Salt and pepper noise, Poisson noise and speckle noise. The need for multiple processes stems from the fact that different noises require different approaches. 
+
+Kumar, P. (2025, May 9). What Is Image Denoising & What Are Its Methods? E-Con Systems. https://www.e-consystems.com/blog/camera/technology/what-is-image-denoising-what-are-its-methods/
+‌
 
 ### Convolutional neural network (CNN)
+A convolutional neural network is a type of neural network that learns via kernel optimization. This type of neural network can be used to process and make predictions in various types of data such as: text, images and audio. This is the main type of neural network used in order to train for image processing. They also consist of an input layer, hidden layers and an output layer. The hidden layers include one or more layers that perform convolutions.
+<img width="960" height="720" alt="image" src="https://github.com/user-attachments/assets/be88cd2b-a043-4d6b-9b8c-07dc7c7377d6" />
+
+Taken from wikipedia. https://en.wikipedia.org/wiki/Convolutional_neural_network
 
 ### Denoising diffusion probabilistic model (DDPM)
+
 
 # Higher level only technical part 
 
