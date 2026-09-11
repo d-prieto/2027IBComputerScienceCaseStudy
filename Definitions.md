@@ -35,6 +35,7 @@ It is an AI image generation of random samples of its training data without any 
 ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*W_TqD_l6OhXZGVpT0Y91vQ.png)
 
 Unconditional Image Generation. (2023, August 3). huggingface.co. https://huggingface.co/tasks/unconditional-image-generation
+
 Michael ZHANG. (2023, February 15). Diffusion Models : Unconditional&Conditional Image Generation. Medium. https://medium.com/@myschang/diffusion-models-unconditional-conditional-image-generation-e7ced52b09b5
 
 ## Diffusion model 
