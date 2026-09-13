@@ -17,6 +17,10 @@ source: https://chemrxiv.org/doi/full/10.26434/chemrxiv.11930004.v3
 
 ## Class labels
 
+Discrete categorical tags that guide generative models to create images belonging to a specific category. So, instead of generating random images, the model can receive an integer or one-hot encoded class label (like "dog", "cat") alongside random noise. The label provides the required category features for the generated output to match. 
+
+![]()
+
 ## Image-to-image translation
 It is a sub-field of computer vision and deep learning where the goal is to map an input image from one domain and an output image in another domain. In simpler words it maps a pattern to another, such as a a winter landscape to a summer landscape.
 
