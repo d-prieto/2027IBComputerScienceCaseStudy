@@ -6,6 +6,8 @@ Here you find almost all the concepts that you need. For context definitions you
 
 ## Text-to-image generation
 
+Text-to-image generation is an AI process that turns typed words into custom pictures. It uses machine learning models to understand the meaning of the text prompt and generate an image based on the user’s description, including elements such as objects, people, environments, colours, and artistic styles.
+
 ## Conditional image generation
 
 Conditional image generators are models designed to synthesize images under explicit control provided by conditioning inputs, such as class labels, attributes, textual descriptions, example images, spatial maps, or multimodal cues.
