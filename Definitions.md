@@ -108,6 +108,11 @@ GANS
 ## Efficiency and hardware support
 
 ## Training stability 
+In artificial image generation, training stability measures whether an optimization algorithm reliably converges to a minimal loss state without numerical divergence or structural mode failure. In simple words, it is the concept that an artificial intelligence learns smoothly and steadily over time without any errors. 
+<img width="952" height="781" alt="image" src="https://github.com/user-attachments/assets/a9cb0801-d845-498b-8d1f-c9543ddd414f" />
+
+Brownlee, J. (2019, February 26). How to use Learning Curves to Diagnose Machine Learning Model Performance. MachineLearningMastery.Com. https://www.machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/
+‌
 
 ## Flexibility and scability 
 
