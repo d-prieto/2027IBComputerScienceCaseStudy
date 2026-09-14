@@ -70,6 +70,11 @@ Taken from wikipedia. https://en.wikipedia.org/wiki/Convolutional_neural_network
 
 ### Denoising diffusion probabilistic model (DDPM)
 
+Denoising diffusion probabilistic models are a class of AI models that create new data by reversing a noise adding process. This works by slowly denoising an image, as it has been trained to predict and remove noise step-by-step to recover a clean image. However, it does not return the de-noised image, instead it denoises an image to create a new image that might be completely different.
+
+![](https://miro.medium.com/v2/resize:fit:1400/1*yvClU5LgylulNWLPNpOCfA.png)
+![](https://www.siam.org/media/agxdzywa/figure1.jpg)
+
 # Higher level only technical part 
 
 ## Generative adversarial network (GAN)
