@@ -113,6 +113,13 @@ In artificial image generation, training stability measures whether an optimizat
 
 Brownlee, J. (2019, February 26). How to use Learning Curves to Diagnose Machine Learning Model Performance. MachineLearningMastery.Com. https://www.machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/
 ‌
+## Neural Network
+A neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.
+
+In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.
+In machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.
+
+https://lamarr-institute.org/wp-content/uploads/deepLearn_2_EN.png
 
 ## Flexibility and scability 
 
