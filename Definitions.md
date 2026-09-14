@@ -8,7 +8,11 @@ Here you find almost all the concepts that you need. For context definitions you
 
 ## Conditional image generation
 
-Conditional image generation refers to the process of generating images based on specific conditions or prompts. This technique is commonly used in applications like text-to-image and sketch-to-image generation, where the output is influenced by the input conditions, such as text descriptions or sketches.
+Conditional image generators are models designed to synthesize images under explicit control provided by conditioning inputs, such as class labels, attributes, textual descriptions, example images, spatial maps, or multimodal cues.
+
+The process of this is by providing an input signal to the AI model and it converts it into a mathematical guide and uses it to shape random visual noise into a matching picture.
+
+(https://www.emergentmind.com/topics/conditional-image-generators)
 
 ## Segmentation map 
 
