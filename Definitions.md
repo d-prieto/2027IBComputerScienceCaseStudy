@@ -70,10 +70,15 @@ Taken from wikipedia. https://en.wikipedia.org/wiki/Convolutional_neural_network
 
 ### Denoising diffusion probabilistic model (DDPM)
 
-
 # Higher level only technical part 
 
 ## Generative adversarial network (GAN)
+A machine learning model designed to generate realistic data by learning patterns from existing training datasets. It uses an unsupervised learning framework by using deep learning techniques, where two neural networks work together. One generates data (generator), while the other evaluates whether the data is real or generated (discriminator).
+It is superior to deep learning in generating new data, including realistic images or text due to the processing complexity.
+
+GANS
+<img width="3888" height="5184" alt="Gans_8285952" src="https://github.com/user-attachments/assets/00ca5721-7cf3-46ae-adc1-ee86313b1edd" />
+
 
 ### Generator
 
