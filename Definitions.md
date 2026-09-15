@@ -21,6 +21,17 @@ The process of this is by providing an input signal to the AI model and it conve
 ![](https://www.researchgate.net/profile/Sagi-Eppel/publication/339698501/figure/fig1/AS:865545939320832@1583373641463/Exclusive-instance-segmentation-map-from-the-Vector-LabPics-dataset-The-segmentation-is.png)
 source: https://chemrxiv.org/doi/full/10.26434/chemrxiv.11930004.v3
 
+
+Definition: A segmentation map is a pixel-level output array in computer vision where every pixel in an image is assigned a specific class label or category, effectively partitioning the image into distinct semantic regions.
+
+Types of Segmentation Maps:
+Semantic Segmentation Maps: Assign a categorical label to every pixel without differentiating between separate objects of the same class. (Example, all pixels belonging to any pedestrian are labeled simply as "pedestrian.")
+
+Instance Segmentation Maps: Go a step further by not only classifying pixels by category but also separating distinct objects of the same class. For example, multiple people in a crowd receive unique instance IDs (Example, "person 1," "person 2").
+
+Panoptic Segmentation Maps: Combine both approaches, providing a comprehensive pixel-level breakdown where countable objects (like cars or people) are separated as individual instances and amorphous (lacking clear form/structure) background elements (like sky, road, or water) are grouped semantically.
+
+
 ## Class labels
 
 Discrete categorical tags that guide generative models to create images belonging to a specific category. So, instead of generating random images, the model can receive an integer or one-hot encoded class label (like "dog", "cat") alongside random noise. The label provides the required category features for the generated output to match. 
