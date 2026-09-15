@@ -10,7 +10,7 @@ Text-to-image generation is an AI process that turns typed words into custom pic
 
 ## Conditional image generation
 
-Conditional image generators are models designed to synthesize images under explicit control provided by conditioning inputs, such as class labels, attributes, textual descriptions, example images, spatial maps, or multimodal cues.
+Conditional image generators are models designed to synthesize images under explicit control provided by conditioning inputs, such as class labels, sketches and segmentation maps.
 
 The process of this is by providing an input signal to the AI model and it converts it into a mathematical guide and uses it to shape random visual noise into a matching picture.
 
@@ -75,6 +75,7 @@ Kumar, P. (2025, May 9). What Is Image Denoising & What Are Its Methods? E-Con S
 
 ### Convolutional neural network (CNN)
 A convolutional neural network is a type of neural network that learns via kernel optimization. This type of neural network can be used to process and make predictions in various types of data such as: text, images and audio. This is the main type of neural network used in order to train for image processing. They also consist of an input layer, hidden layers and an output layer. The hidden layers include one or more layers that perform convolutions.
+It works by passing data through different layers. In image processing, small filters called kernels move across the image to detect features such as edges, colours and shapes. These features are passed through deeper layers, which can recognise more complex patterns and objects. Finally, the network uses the information it has learned to make a prediction. During training, it adjusts its weights and kernels to reduce errors and improve accuracy. It is useful for images because CNNs can automatically detect important visual features such as edges, shapes, textures and objects. They also keep the spatial relationship between pixels, which helps the network understand where features are located in an image.
 <img width="960" height="720" alt="image" src="https://github.com/user-attachments/assets/be88cd2b-a043-4d6b-9b8c-07dc7c7377d6" />
 
 Taken from wikipedia. https://en.wikipedia.org/wiki/Convolutional_neural_network
