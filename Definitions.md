@@ -111,6 +111,13 @@ GANS
 
 ### Variational autoencoder (VAE) 
 
+Type of artificial neural network that learns to encode data into/decode from a simpler form. Combines probabilistic latent space representations with deterministic architectures. Unlike traditional autoencoder, represent data as a probability distribution rather than a single point. That allows for it to learn the underlying patterns of data and generate new examples. 
+
+The encoder utilizes input data to map it to a probability distribution in a latent space, which is a simpler representation of the data.
+Decoder takes a sample from this latent space and reconstructs the original data or generated a new example that is similar to training data.
+
+![](https://assets.ibm.com/is/image/ibm/variational-autoencoder-neural-network?fmt=png-alpha)
+
 ### Latent space
 
 ### Flow-based model
