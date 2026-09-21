@@ -135,6 +135,15 @@ A multi dimensional space where different labels are places to show corresponden
 
 ### Flow-based model
 
+Flow based model are models that are provided with two images and output the combination of both.
+
+<img width="1172" height="390" alt="image" src="https://github.com/user-attachments/assets/a43d8adb-e69a-4c97-b1e1-7c19aedc2edb" />
+
+Another way this can also work is with one of the images being a pre-trained concept that the model has learnt through training and is applied to the image.
+
+<img width="1328" height="592" alt="image" src="https://github.com/user-attachments/assets/4a532f72-eed9-4edd-af31-6ee4453b32b4" />
+
+However, in both cases, the quantity of the concept or image can be changed.
 
 
 # Standard level and higher level evaluation part
