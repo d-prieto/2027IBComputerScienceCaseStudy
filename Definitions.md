@@ -120,7 +120,13 @@ Decoder takes a sample from this latent space and reconstructs the original data
 
 ### Latent space
 
+A multi dimensional space where different labels are places to show correspondence between them, for example, two images of different cats would be closer together than an image of a cat and one of a dog. This is useful because it allows models to compress complex raw data into simplified numerical maps and join similar concepts together into clusters, similarly to OLAP cubes.
+
+![](https://miro.medium.com/v2/0*3BFRAEBNQRHuJfSK.png)
+
 ### Flow-based model
+
+
 
 # Standard level and higher level evaluation part
 
