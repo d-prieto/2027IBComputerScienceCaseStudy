@@ -42,7 +42,7 @@ It is a sub-field of computer vision and deep learning where the goal is to map 
 
 <img width="1400" height="673" alt="0_Udvw6tGu40iDEkuH" src="https://github.com/user-attachments/assets/30e3141f-8862-40d9-8d91-9e215255c218" />
 <img width="431" height="464" alt="images" src="https://github.com/user-attachments/assets/b55938e7-4903-4624-a92b-9c72effadff4" />
-
+Note: the Van Goh joke isn't image-to-image translation because it isn't replacing nor translating visual elements, the images are fundamentally distinct even if they are similar.
 
 
 
@@ -96,8 +96,16 @@ It is superior to deep learning in generating new data, including realistic imag
 GANS
 <img width="3888" height="5184" alt="Gans_8285952" src="https://github.com/user-attachments/assets/00ca5721-7cf3-46ae-adc1-ee86313b1edd" />
 
-
 ### Generator
+The generator's sole purpose is to map random noise to a specific data distribution. In other words it is a master forger, it summons realistic images out of thin air. However, the random noise isn't simply noise, it's called latent space: an N-dimensional space. Moreover, it selects a random point in that space and map it to a specific image. Each dimension changes a very specific value, for example dimension 42 could change solely the lighting intensity. An analogy would be it makes a stew (the image) by combining all the chosen ingredients (the values for each dimension).
+
+The process the generator uses to create images
+
+Step1:
+<img width="720" height="720" alt="720X720-soup-alla-shroomie-col-1" src="https://github.com/user-attachments/assets/fe41ed69-7e0c-417c-bf1e-b9ee69e0562a" />
+Step 2:
+<img width="800" height="400" alt="mystical-d-background-powerful-summoning-circle-glowing-ethereal-energy-hooded-figures-chant-ancient-spells-as-swirling-369195367" src="https://github.com/user-attachments/assets/9887a1f3-5f9f-403c-888b-b61dc1f6482f" />
+
 
 ### Discriminator 
 
