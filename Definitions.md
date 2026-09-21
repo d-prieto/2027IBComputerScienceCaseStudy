@@ -98,6 +98,9 @@ GANS
 
 ### Generator
 The generator's sole purpose is to map random noise to a specific data distribution. In other words it is a master forger, it summons realistic images out of thin air. However, the random noise isn't simply noise, it's called latent space: an N-dimensional space. Moreover, it selects a random point in that space and map it to a specific image. Each dimension changes a very specific value, for example dimension 42 could change solely the lighting intensity. An analogy would be it makes a stew (the image) by combining all the chosen ingredients (the values for each dimension).
+
+The process the generator uses to create images
+
 The process the generator uses to create images
 Step1:
 <img width="720" height="720" alt="720X720-soup-alla-shroomie-col-1" src="https://github.com/user-attachments/assets/fe41ed69-7e0c-417c-bf1e-b9ee69e0562a" />
