@@ -177,6 +177,8 @@ The process of keeping information, ideas, or elements consistent throughout a p
 
 ### Character consistency 
 
+Keeping a digital character looking the same across different AI-generated images, scenes, or video clips. This includes maintaining the same facial features, hairstyle, clothing, and other recognisable characteristics.
+
 ### Embedding-based approach
 
 ### Style adherence
