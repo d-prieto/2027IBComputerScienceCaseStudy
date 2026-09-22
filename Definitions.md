@@ -185,6 +185,8 @@ An embedding-based approach converts words, images, or data into numerical vecto
 
 ### Style adherence
 
+Style adherence refers to how consistently an AI-generated image follows a specific visual or artistic style. It means keeping features such as colours, lighting, composition, and artistic details consistent with the chosen style.
+
 # Standard level and higher level ethics part
 
 ## Dataset curation 
