@@ -173,6 +173,8 @@ It refers to how a system handles bigger workloads and adapt to new requirements
 
 ## Consistency management 
 
+The process of keeping information, ideas, or elements consistent throughout a project. It helps make sure that different parts of the work fit together and do not contradict each other.
+
 ### Character consistency 
 
 ### Embedding-based approach
