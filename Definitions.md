@@ -164,7 +164,12 @@ In machine learning, an artificial neural network is a mathematical model used t
 
 https://lamarr-institute.org/wp-content/uploads/deepLearn_2_EN.png
 
-## Flexibility and scability 
+## Flexibility and scalability 
+
+It refers to how a system handles bigger workloads and adapt to new requirements, as they are key principles for growing systems. Scalability links to vertical (more raw computing power e.g. more machines), and horizontal scaling (Upgrading the computers e.g. better processors or more efficient software).
+
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/c8f0d91a-9d72-4bf4-a633-c17c6d67c546" />
+
 
 ## Consistency management 
 
