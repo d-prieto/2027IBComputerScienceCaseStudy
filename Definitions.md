@@ -109,13 +109,13 @@ Step 2:
 
 
 ### Discriminator 
-
+A strict art critic whose sole job is to tell the difference between real data and the generator's fake creations. It examines samples from both sides and assigns a probability score of being real or fake. As it improves, it forces the generator to improve; which makes the discriminator increase: hence a positive loop.
 ### D-dimensional noise vector
-
+This is a raw input array containing random numbers across N-different axes, serving as the raw creative seed for the generator. Like a recipe with N ingredients, each value in the vector specifies a very specific feature. Tweaking even one of these numbers subtly shifts traits like texture, scale, or color across the generated sample.
 ### Adversarial dynamic
-
+Competitive tug-of-war between the generator and the discriminator, where each network pushes the other to improve. The generator tries to fool the critic with increasingly convincing fakes, and the critic becomes better as discerning fakes. Both networks co-evolve until the generated outputs become nearly indistinguishable from reality.
 ### Mode collapse 
-
+When the generator gets lazy and finds a single output that consistently fools the discriminator, causing it to completely ignore the rest of the data distribution. Instead of producing a wide variety of realistic samples, it repeats the exact same output or a very narrow range of variations. The model forgets how to create diversity, trapping itself in a very narrow view.
 ## Hybrid models
 
 ### Variational autoencoder (VAE) 
