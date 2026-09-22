@@ -181,6 +181,8 @@ Keeping a digital character looking the same across different AI-generated image
 
 ### Embedding-based approach
 
+An embedding-based approach converts words, images, or data into numerical vectors in a continuous space. These vectors represent the meaning or features of the information and can be used to measure how similar different inputs are.
+
 ### Style adherence
 
 # Standard level and higher level ethics part
