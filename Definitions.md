@@ -189,3 +189,6 @@ It refers to how a system handles bigger workloads and adapt to new requirements
 
 ## Transparency 
 
+Transparency in AI is the ability of models to give reasoning behind choices be open about how they make decisions (this is the goal of interpretable AI models). This opposes the black box theory (where models just allow for an imput and an output, without the working or reasoning that led to the output) and has a big role in the ethics of AI.
+
+<img width="850" height="464" alt="image" src="https://github.com/user-attachments/assets/7802d6fe-4e09-49bf-a3bb-f8602d19e4ca" />
