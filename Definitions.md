@@ -149,6 +149,12 @@ However, in both cases, the quantity of the concept or image can be changed.
 # Standard level and higher level evaluation part
 
 ## Efficiency and hardware support
+Efficiency in AI image generation is the ratio of generation quality to the resource consumption. Which is measured by the ability to minimize computational latency and energy use during iterative sampling without messing up the visuals
+
+Hardware support is the physical computing architecture that is designed to improve the speed and efficiency of AI tasks. They contain several hardware pieces that are designed to accelerate AI computations. 
+
+SEO, H. (2023, July 31). AI Hardwares: What is it? How does it work? - Holistic SEO. Holistic SEO. https://www.holisticseo.digital/ai/hardware/
+‌
 
 ## Training stability 
 In artificial image generation, training stability measures whether an optimization algorithm reliably converges to a minimal loss state without numerical divergence or structural mode failure. In simple words, it is the concept that an artificial intelligence learns smoothly and steadily over time without any errors. 
