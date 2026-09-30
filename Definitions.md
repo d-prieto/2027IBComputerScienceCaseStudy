@@ -100,22 +100,24 @@ GANS
 The generator's sole purpose is to map random noise to a specific data distribution. In other words it is a master forger, it summons realistic images out of thin air. However, the random noise isn't simply noise, it's called latent space: an N-dimensional space. Moreover, it selects a random point in that space and map it to a specific image. Each dimension changes a very specific value, for example dimension 42 could change solely the lighting intensity. An analogy would be it makes a stew (the image) by combining all the chosen ingredients (the values for each dimension).
 
 The process the generator uses to create images
-
-The process the generator uses to create images
-Step1:
-<img width="720" height="720" alt="720X720-soup-alla-shroomie-col-1" src="https://github.com/user-attachments/assets/fe41ed69-7e0c-417c-bf1e-b9ee69e0562a" />
-Step 2:
 <img width="800" height="400" alt="mystical-d-background-powerful-summoning-circle-glowing-ethereal-energy-hooded-figures-chant-ancient-spells-as-swirling-369195367" src="https://github.com/user-attachments/assets/9887a1f3-5f9f-403c-888b-b61dc1f6482f" />
 
 
 ### Discriminator 
 A strict art critic whose sole job is to tell the difference between real data and the generator's fake creations. It examines samples from both sides and assigns a probability score of being real or fake. As it improves, it forces the generator to improve; which makes the discriminator increase: hence a positive loop.
+<img width="517" height="593" alt="images" src="https://github.com/user-attachments/assets/f0142ea9-ae57-483f-8c1f-46b5086262f3" />
+
 ### D-dimensional noise vector
 This is a raw input array containing random numbers across N-different axes, serving as the raw creative seed for the generator. Like a recipe with N ingredients, each value in the vector specifies a very specific feature. Tweaking even one of these numbers subtly shifts traits like texture, scale, or color across the generated sample.
+<img width="720" height="720" alt="720X720-soup-alla-shroomie-col-1" src="https://github.com/user-attachments/assets/fe41ed69-7e0c-417c-bf1e-b9ee69e0562a" />
 ### Adversarial dynamic
 Competitive tug-of-war between the generator and the discriminator, where each network pushes the other to improve. The generator tries to fool the critic with increasingly convincing fakes, and the critic becomes better as discerning fakes. Both networks co-evolve until the generated outputs become nearly indistinguishable from reality.
+<img width="547" height="365" alt="images" src="https://github.com/user-attachments/assets/4a96d5e9-9e34-4c2a-abc1-f3e1ebff13bb" />
+
 ### Mode collapse 
 When the generator gets lazy and finds a single output that consistently fools the discriminator, causing it to completely ignore the rest of the data distribution. Instead of producing a wide variety of realistic samples, it repeats the exact same output or a very narrow range of variations. The model forgets how to create diversity, trapping itself in a very narrow view.
+<img width="554" height="554" alt="images" src="https://github.com/user-attachments/assets/c9e158ea-13e1-4264-8e5d-91075dff5031" />
+This model has been fed only blue birds
 ## Hybrid models
 
 ### Variational autoencoder (VAE) 
