@@ -198,7 +198,7 @@ Style adherence refers to how consistently an AI-generated image follows a speci
 ## Dataset curation 
 
 ## Bias and fairness 
-
+In terms of decision-making and policy, fairness can be defined as “the absence of any prejudice or favoritism towards an individual or a group based on their inherent or acquired characteristics”.  Six of the most used definitions are equalized odds, equal opportunity, demographic parity, fairness through unawareness or group unaware, treatment equality. 
 ### Bias mitigation
 
 ## Transparency 
