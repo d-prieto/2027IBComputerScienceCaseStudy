@@ -21,6 +21,8 @@ b) Explain how a diffusion model can generate a photo of Batman being more sensu
 It generates it by making the what is requested into something real. The model interprets the words such as Batman and Catwoman, the sensuality, and the pose. So from it, it learns associations between the words and the visual patterns from the training data.
 With this, it starts from random noise and then goes denoising it, making the image of Batman being more sensual than Catwoman
 
+Daniel- Copyrighted material in models can pose a big problem for visionary studios, as any image generation can produce aspects of this material which, if used, can lead to a lawsuit. A solution to this would be to use licensed databases with stock images that do not contain copyrighted material. Another solution would be to hire artists of both physical and electronic media and use it to train the model. Both of these solutions allow for the model to base its generations on non copyrighted material.
+
 
 
 # Exam like questions
