@@ -117,6 +117,8 @@ This is a raw input array containing random numbers across N-different axes, ser
 
 
 <img width="720" height="720" alt="720X720-soup-alla-shroomie-col-1" src="https://github.com/user-attachments/assets/fe41ed69-7e0c-417c-bf1e-b9ee69e0562a" />
+
+
 ### Adversarial dynamic
 Competitive tug-of-war between the generator and the discriminator, where each network pushes the other to improve. The generator tries to fool the critic with increasingly convincing fakes, and the critic becomes better as discerning fakes. Both networks co-evolve until the generated outputs become nearly indistinguishable from reality.
 
