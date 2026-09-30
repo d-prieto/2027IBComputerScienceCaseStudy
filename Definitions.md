@@ -132,7 +132,11 @@ When the generator gets lazy and finds a single output that consistently fools t
 <img width="554" height="554" alt="images" src="https://github.com/user-attachments/assets/c9e158ea-13e1-4264-8e5d-91075dff5031" />
 
 
-This model has been fed only blue birds
+This model has been fed only blue birds, it needs a balanced diet:
+
+
+<img width="2500" height="1637" alt="social+varied+diet" src="https://github.com/user-attachments/assets/1c79c5bb-ac53-4e42-8ea5-06bae1ef6967" />
+
 ## Hybrid models
 
 ### Variational autoencoder (VAE) 
