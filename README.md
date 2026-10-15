@@ -10,4 +10,8 @@ You will find:
 * [Example of what I expect from a full definition research](https://github.com/d-prieto/2027IBComputerScienceCaseStudy/blob/main/Example.md)
 * [Context definitions](https://github.com/d-prieto/2027IBComputerScienceCaseStudy/blob/main/Context%20definitions.md)
 * [Definitions](https://github.com/d-prieto/2027IBComputerScienceCaseStudy/blob/main/Definitions.md)
-* Investigation questions (TO-DO)
+
+
+Other resources found:
+
+[Quizlet with case study questions and answers](https://quizlet.com/user/JamesShrimptonBIS/folders/ib-computer-science-2027)
