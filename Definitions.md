@@ -10,11 +10,16 @@ Text-to-image generation is an AI process that turns typed words into custom pic
 
 ## Conditional image generation
 
-Conditional image generators are models designed to synthesize images under explicit control provided by conditioning inputs, such as class labels, sketches and segmentation maps.
+Conditional image generators are models designed to synthesize images under explicit control provided by conditioning inputs, such as class labels, attributes, textual descriptions, example images, spatial maps, or multimodal cues.
 
 The process of this is by providing an input signal to the AI model and it converts it into a mathematical guide and uses it to shape random visual noise into a matching picture.
 
 (https://www.emergentmind.com/topics/conditional-image-generators)
+
+<img width="850" height="680" alt="image" src="https://github.com/user-attachments/assets/9272bc5b-70d0-4a49-90fa-a396e377b48a" />
+
+(https://www.researchgate.net/figure/Examples-of-images-generated-by-our-conditional-model-All-images-are-at-512-512_fig3_322674898)
+
 
 ## Segmentation map 
 
