@@ -232,3 +232,18 @@ In terms of decision-making and policy, fairness can be defined as “the absenc
 Transparency in AI is the ability of models to give reasoning behind choices be open about how they make decisions (this is the goal of interpretable AI models). This opposes the black box theory (where models just allow for an imput and an output, without the working or reasoning that led to the output) and has a big role in the ethics of AI.
 
 <img width="850" height="464" alt="image" src="https://github.com/user-attachments/assets/7802d6fe-4e09-49bf-a3bb-f8602d19e4ca" />
+
+
+
+
+
+
+#Extra stuff for the essay question (optional)
+##Wasserstein GAN (WGAN-GP)
+Standard GANs tend to crash due to mode collapse and instability, as the discriminator becomes too smart too fast and gives no useful feedback to the generator. WGAN-GP fixes this by replacing a true or false verdict with a distance scale, and replacing the weight clipping method (strictly restricting the result inside a range — as an analogy the possibilities are from 1-10 but it is retricted to 4,5 and 6) by a gradient penalty (penalizing sharp gradients, to allow full flexibility).
+Pros
+- Much more stable: fixes mode collapse and instability
+- Much more accurate measurement of progress (number instead of binary outcome)
+Cons
+- Longer training time
+- Need for more processing power and memory
