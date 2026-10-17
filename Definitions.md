@@ -238,8 +238,8 @@ Transparency in AI is the ability of models to give reasoning behind choices be 
 
 
 
-#Extra stuff for the essay question (optional)
-##Wasserstein GAN (WGAN-GP)
+# Extra stuff for the essay question (optional)
+## Wasserstein GAN (WGAN-GP)
 Standard GANs tend to crash due to mode collapse and instability, as the discriminator becomes too smart too fast and gives no useful feedback to the generator. WGAN-GP fixes this by replacing a true or false verdict with a distance scale, and replacing the weight clipping method (strictly restricting the result inside a range — as an analogy the possibilities are from 1-10 but it is retricted to 4,5 and 6) by a gradient penalty (penalizing sharp gradients, to allow full flexibility).
 Pros
 - Much more stable: fixes mode collapse and instability
