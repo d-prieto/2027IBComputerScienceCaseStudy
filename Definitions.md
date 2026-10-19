@@ -276,35 +276,22 @@ Cons
 
 | Paradigm | VAE | GAN | Diffusion | Flow-based |
 | :--- | :--- | :--- | :--- | :--- |
-| **VAE** | — | **VQGAN / VAE-GAN** | **LDM** | **Flow-Matching Latent** |
-| **GAN** | **VQGAN / VAE-GAN** | — | **Diffusion GAN** | **Flow-GAN** |
+| **VAE** | — | **VQGAN** | **LDM** | **Flow-Matching Latents** |
+| **GAN** | **VQGAN** | — | **Diffusion GAN** | **Flow-GAN** |
 | **Diffusion** | **LDM** | **Diffusion GAN** | — | **Rectified Flow** |
-| **Flow-based** | **Flow-Matching Latent** | **Flow-GAN** | **Rectified Flow** | — |
+| **Flow-based** | **Flow-Matching Latents** | **Flow-GAN** | **Rectified Flow** | — |
 
 ---
 
-## Core Problem & Solution Summaries
 
-* **VAE + GAN (VQGAN / VAE-GAN):**
-  * *Fixes:* Classical VAE **blurriness**.
-  * *How:* Replaces pixel-wise MSE loss with a GAN discriminator to enforce crisp local textures.
+* **VQGAN (Vector Quantized Generative Adversarial Network — VAE + GAN):** Fixes blurry VAE outputs caused by pixel-wise MSE averaging by replacing continuous latents with a discrete codebook and swapping pixel loss for a patch-based adversarial discriminator to enforce sharp local textures.
 
-* **VAE + Diffusion (LDM / Stable Diffusion):**
-  * *Fixes:* High **memory / VRAM crash** of pixel-space diffusion.
-  * *How:* Operates the slow denoising process inside a compressed VAE latent space instead of raw pixels.
+* **LDM (Latent Diffusion Model — VAE + Diffusion):** Fixes the $O(N^2)$ memory and compute bottleneck of pixel-space diffusion by using an autoencoder to compress high-dimensional pixels into a low-dimensional latent space, executing the entire iterative denoising process on the compressed feature maps. Contrary to original, it's deterministic.
 
-* **VAE + Flow (Flow-Matching Latent / SD3 / FLUX):**
-  * *Fixes:* High **VRAM usage** and **slow curved sampling paths**.
-  * *How:* Runs linear flow matching directly inside a compressed VAE latent space.
+* **Flow-Matching Latents (Flow-Matching Latent Models — VAE + Flow):** Fixes high VRAM overhead and non-linear, multi-step sampling trajectories by performing Continuous Normalizing Flow matching inside a compressed VAE latent space, learning straight vector fields to minimize numerical solver iterations.
 
-* **Diffusion + GAN (Diffusion GAN):**
-  * *Fixes:* Multi-step **denoising latency**.
-  * *How:* Attaches intermediate discriminators to allow the model to take massive time-step leaps.
+* **Diffusion GAN (Diffusion Generative Adversarial Network — Diffusion + GAN):** Fixes high sampling latency (50–1000 steps) in standard diffusion models by integrating intermediate GAN discriminators at each step to model large noise transitions, allowing the network to take aggressive time-step leaps without loss of realism.
 
-* **Flow + GAN (Flow-GAN):**
-  * *Fixes:* GAN **training instability** and **mode collapse**.
-  * *How:* Uses normalizing flows to provide exact log-likelihood guidance to the adversarial generator.
+* **Flow-GAN (Flow Generative Adversarial Network — Flow + GAN):** Fixes low-quality Flow outputs and unstable GAN training by using Flow's strict math to keep training stable, while using a GAN critic to force the generator to produce crisp, high-quality images.
 
-* **Flow + Diffusion (Rectified Flow):**
-  * *Fixes:* **Slow, curved sampling paths** in standard diffusion.
-  * *How:* Straightens curved SDE/ODE trajectories into straight linear vectors to reduce sampling steps.
+* **Rectified Flow (Rectified Flow Models — Flow + Diffusion):** Fixes slow diffusion sampling by forcing the model to generate images along straight point-A-to-point-B lines rather than curved, wandering paths, cutting generation down to just a few steps.
