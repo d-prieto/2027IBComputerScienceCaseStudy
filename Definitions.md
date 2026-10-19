@@ -247,3 +247,64 @@ Pros
 Cons
 - Longer training time
 - Need for more processing power and memory
+
+## Pix2Pix (conditional GAN)
+Uses paired inputs $(x, y)$ with a U-Net generator and PatchGAN discriminator to enforce strict spatial alignment (e.g., turning edge sketches or maps into precise renderings).
+
+## Cascaded Diffusion models (CDM)
+Standard diffusion models crash when trying to render high-resolution images because processing a massive pixel grid all at once requires unsustainable amounts of memory. CDM solves this by chaining multiple pure diffusion models together sequentially—generating a small, low-resolution image first, and then passing it through subsequent diffusion models to upscale and add high-frequency details step-by-step.
+
+Pros
+- High-resolution capability: Breaks heavy pixel-grid rendering into manageable, sequential steps.
+Cons
+- Accumulated error: If the initial low-resolution model makes a mistake, downstream upscaling models can amplify those artifacts.
+
+## Consistency Diffusion Models
+Standard diffusion models suffer from high inference latency because they force the network to trudge through 50 to 1000 sequential, step-by-step denoising calculations to clear out noise. Consistency models solve this purely within the diffusion framework by enforcing a mathematical shortcut rule: any point along the noise-to-image path is trained to map directly to the final output destination in just 1 to 4 steps, bypassing the need for intermediate loops.
+
+Pros
+- Real-time generation speed: Dramatically cuts down processing time by eliminating iterative calculation loops.
+- Pure diffusion framework: Solves the latency bottleneck without needing to cross-breed with external architectures.
+
+Cons
+- Lower accuracy and detail: Skipping step-by-step refinement causes a noticeable drop in fine image details and texture sharpness.
+- Reduced output variety: Taking aggressive shortcuts forces the model toward safer outputs, decreasing overall sample diversity.
+
+
+## Hybrids
+# Hybrid Generative Models Matrix
+
+| Paradigm | VAE | GAN | Diffusion | Flow-based |
+| :--- | :--- | :--- | :--- | :--- |
+| **VAE** | — | **VQGAN / VAE-GAN** | **LDM** | **Flow-Matching Latent** |
+| **GAN** | **VQGAN / VAE-GAN** | — | **Diffusion GAN** | **Flow-GAN** |
+| **Diffusion** | **LDM** | **Diffusion GAN** | — | **Rectified Flow** |
+| **Flow-based** | **Flow-Matching Latent** | **Flow-GAN** | **Rectified Flow** | — |
+
+---
+
+## Core Problem & Solution Summaries
+
+* **VAE + GAN (VQGAN / VAE-GAN):**
+  * *Fixes:* Classical VAE **blurriness**.
+  * *How:* Replaces pixel-wise MSE loss with a GAN discriminator to enforce crisp local textures.
+
+* **VAE + Diffusion (LDM / Stable Diffusion):**
+  * *Fixes:* High **memory / VRAM crash** of pixel-space diffusion.
+  * *How:* Operates the slow denoising process inside a compressed VAE latent space instead of raw pixels.
+
+* **VAE + Flow (Flow-Matching Latent / SD3 / FLUX):**
+  * *Fixes:* High **VRAM usage** and **slow curved sampling paths**.
+  * *How:* Runs linear flow matching directly inside a compressed VAE latent space.
+
+* **Diffusion + GAN (Diffusion GAN):**
+  * *Fixes:* Multi-step **denoising latency**.
+  * *How:* Attaches intermediate discriminators to allow the model to take massive time-step leaps.
+
+* **Flow + GAN (Flow-GAN):**
+  * *Fixes:* GAN **training instability** and **mode collapse**.
+  * *How:* Uses normalizing flows to provide exact log-likelihood guidance to the adversarial generator.
+
+* **Flow + Diffusion (Rectified Flow):**
+  * *Fixes:* **Slow, curved sampling paths** in standard diffusion.
+  * *How:* Straightens curved SDE/ODE trajectories into straight linear vectors to reduce sampling steps.
