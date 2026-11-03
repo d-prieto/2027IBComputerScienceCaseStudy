@@ -15,3 +15,4 @@ You will find:
 Other resources found:
 
 [Quizlet with case study questions and answers](https://quizlet.com/user/JamesShrimptonBIS/folders/ib-computer-science-2027)
+[Youtube explanation by an AI mascot](https://www.youtube.com/playlist?list=PLGUtuldztqlg)
